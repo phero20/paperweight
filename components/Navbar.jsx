@@ -13,6 +13,7 @@ export default function PaperweightNavbar({ onOpenModal }) {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+ 
 
   const navigationLinks = [
     { name: "The Challenge", href: "#about" },

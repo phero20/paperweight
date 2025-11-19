@@ -1,6 +1,10 @@
 import './globals.css'
 import { Playfair_Display, Inter } from 'next/font/google'
 
+export const metadata = {
+  title: 'The Paperweight',
+}
+
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-serif' })
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
 
